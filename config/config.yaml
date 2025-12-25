@@ -1,0 +1,23 @@
+database:
+  host: ${DB_HOST}
+  port: ${DB_PORT}
+  name: ${DB_NAME}
+  user: ${DB_USER}
+  password: ${DB_PASSWORD}
+
+data_generation:
+  customers_count: 1000
+  products_count: 500
+  transactions_count: 5000
+  start_date: "2022-01-01"
+  end_date: "2024-12-31"
+
+pipeline:
+  batch_size: 500
+  log_level: INFO
+  retry_attempts: 3
+  timeout_seconds: 30
+
+bi_tool:
+  tool: powerbi
+  refresh_mode: manual
