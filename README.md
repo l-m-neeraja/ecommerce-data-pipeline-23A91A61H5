@@ -14,7 +14,7 @@ The system follows modern data engineering best practices including schema separ
 ## Project Architecture
 
 ### Data Flow
-
+```
 Raw Data (CSV)
 ↓
 Staging Schema (PostgreSQL)
@@ -26,7 +26,7 @@ Warehouse Schema (Star Schema)
 Analytics Queries
 ↓
 BI Dashboard (Power BI / Tableau)
-
+```
 ---
 
 ## Technology Stack
@@ -42,10 +42,9 @@ BI Dashboard (Power BI / Tableau)
 | Testing | Pytest |
 | Version Control | Git & GitHub |
 
----
 
 ## Project Structure
-
+```
 ecommerce-data-pipeline/
 │
 ├── config/
@@ -78,7 +77,7 @@ ecommerce-data-pipeline/
 ├── docs/
 │
 └── README.md
-
+```
 ---
 
 ## Database Schemas
@@ -118,23 +117,23 @@ Purpose: Optimized for analytical queries and BI tools using a star schema.
 ## Running the Pipeline
 
 ### Full Pipeline Execution
-
+```
 python scripts/pipeline_orchestrator.py
-
+```
 ### Individual Steps
-
+```
 python scripts/data_generation/generate_data.py  
 python scripts/ingestion/load_to_staging.py  
 python scripts/transformation/staging_to_production.py  
 python scripts/transformation/load_warehouse.py  
 python scripts/transformation/generate_analytics.py  
-
+```
 ---
 
 ## Running Tests
-
+```
 pytest tests/ -v
-
+```
 Tests include:
 - Data generation validation
 - Ingestion checks
