@@ -14,7 +14,7 @@ The system follows modern data engineering best practices including schema separ
 ## Project Architecture
 
 ### Data Flow
-
+```
 Raw Data (CSV)
 ↓
 Staging Schema (PostgreSQL)
@@ -26,7 +26,7 @@ Warehouse Schema (Star Schema)
 Analytics Queries
 ↓
 BI Dashboard (Power BI / Tableau)
-
+```
 ---
 
 ## Technology Stack
