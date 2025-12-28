@@ -1,0 +1,5 @@
+customer_id,full_name,total_spent,transaction_count,avg_order_value
+CUST0012,Rahul Sharma,12000,24,500
+CUST0345,Ananya Iyer,9800,18,544
+CUST0789,Rohit Verma,8700,15,580
+CUST0567,Priya Nair,10500,20,525

@@ -1,0 +1,6 @@
+discount_range,avg_discount_pct,total_quantity_sold,total_revenue,avg_line_total
+0%,0,5200,180000,35
+1-10%,7,6800,210000,31
+11-25%,18,4300,150000,28
+26-50%,38,2100,90000,24
+50%+,55,900,45000,20

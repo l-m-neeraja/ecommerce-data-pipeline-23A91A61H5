@@ -1,0 +1,6 @@
+customer_key,customer_id,first_name,last_name,state,registration_date
+1,CUST001,Aarav,Sharma,Telangana,2024-01-05
+2,CUST002,Diya,Patel,Gujarat,2024-02-12
+3,CUST003,Rohan,Iyer,Karnataka,2024-01-20
+4,CUST004,Ananya,Das,West Bengal,2024-03-01
+5,CUST005,Kabir,Mehta,Maharashtra,2024-02-25

@@ -1,0 +1,5 @@
+payment_method,transaction_count,total_revenue,pct_of_transactions,pct_of_revenue
+Credit Card,3200,260000,32,35
+UPI,2800,210000,28,28
+Debit Card,2100,150000,21,20
+Cash on Delivery,1900,110000,19,17

@@ -1,0 +1,4 @@
+spending_segment,customer_count,total_revenue,avg_transaction_value
+0-1000,420,180000,120
+1000-5000,350,260000,160
+5000-10000,130,250000,240

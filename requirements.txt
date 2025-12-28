@@ -1,0 +1,10 @@
+pandas
+numpy
+faker
+sqlalchemy
+psycopg2-binary
+pyyaml
+python-dotenv
+pytest
+pytest-cov
+schedule

@@ -1,0 +1,28 @@
+{
+  "bi_tool": "powerbi",
+  "dashboard_name": "E-Commerce Analytics Dashboard",
+  "file_name": "ecommerce_analytics.pbix",
+  "pages": 4,
+  "visualizations": 16,
+  "data_source": "CSV exports from warehouse analytical queries",
+  "star_schema_used": true,
+  "dimensions": [
+    "dim_customers",
+    "dim_products",
+    "dim_date"
+  ],
+  "fact_table": "fact_sales",
+  "features": {
+    "slicers": [
+      "date_range",
+      "category",
+      "state"
+    ],
+    "cross_filtering": true,
+    "drill_down": false,
+    "tooltips": true
+  },
+  "screenshots_path": "dashboards/screenshots/",
+  "created_date": "2025-01-27"
+}
+

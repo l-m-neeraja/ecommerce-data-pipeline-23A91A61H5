@@ -1,0 +1,6 @@
+product_key,product_id,product_name,category,sub_category,price,cost
+101,PROD001,Smartphone,Electronics,Mobiles,30000,22000
+102,PROD002,Laptop,Electronics,Computers,70000,52000
+103,PROD003,Headphones,Electronics,Accessories,3000,1500
+104,PROD004,Office Chair,Furniture,Chairs,12000,8000
+105,PROD005,Running Shoes,Fashion,Footwear,5000,3000
