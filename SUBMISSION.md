@@ -3,7 +3,7 @@
 ## Student Information
 Name: Padala Leela Mallika Neeraja
 Roll Number: 23A91A61H5  
-Email: your-email@example.com  
+Email: 23a91a61h5@aec.edu.in
 Submission Date: 29-12-2025  
 
 ---
