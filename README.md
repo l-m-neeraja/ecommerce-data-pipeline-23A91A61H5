@@ -117,23 +117,23 @@ Purpose: Optimized for analytical queries and BI tools using a star schema.
 ## Running the Pipeline
 
 ### Full Pipeline Execution
-
+```
 python scripts/pipeline_orchestrator.py
-
+```
 ### Individual Steps
-
+```
 python scripts/data_generation/generate_data.py  
 python scripts/ingestion/load_to_staging.py  
 python scripts/transformation/staging_to_production.py  
 python scripts/transformation/load_warehouse.py  
 python scripts/transformation/generate_analytics.py  
-
+```
 ---
 
 ## Running Tests
-
+```
 pytest tests/ -v
-
+```
 Tests include:
 - Data generation validation
 - Ingestion checks
