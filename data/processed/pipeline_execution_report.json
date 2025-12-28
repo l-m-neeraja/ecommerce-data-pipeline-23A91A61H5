@@ -1,0 +1,57 @@
+{
+    "pipeline_execution_id": "PIPE_20251228_222909",
+    "start_time": "2025-12-28T22:29:09.245052",
+    "end_time": "2025-12-28T22:29:09.249508",
+    "total_duration_seconds": 0.004456,
+    "status": "success",
+    "steps_executed": {
+        "Data Generation": {
+            "status": "success",
+            "duration_seconds": 0.001236,
+            "records_processed": 1000,
+            "retry_attempts": 0
+        },
+        "Data Ingestion": {
+            "status": "success",
+            "duration_seconds": 0.000234,
+            "records_processed": 1000,
+            "retry_attempts": 0
+        },
+        "Data Quality Checks": {
+            "status": "success",
+            "duration_seconds": 0.000184,
+            "records_processed": 1000,
+            "retry_attempts": 0
+        },
+        "Staging to Production": {
+            "status": "success",
+            "duration_seconds": 0.000342,
+            "records_processed": 1000,
+            "retry_attempts": 0
+        },
+        "Warehouse Load": {
+            "status": "success",
+            "duration_seconds": 0.000236,
+            "records_processed": 1000,
+            "retry_attempts": 0
+        },
+        "Analytics Generation": {
+            "status": "success",
+            "duration_seconds": 0.000211,
+            "records_processed": 10,
+            "retry_attempts": 0
+        },
+        "Pipeline Report Generation": {
+            "status": "success",
+            "duration_seconds": 0.000186,
+            "records_processed": 1,
+            "retry_attempts": 0
+        }
+    },
+    "data_quality_summary": {
+        "quality_score": 100,
+        "critical_issues": 0
+    },
+    "errors": [],
+    "warnings": []
+}

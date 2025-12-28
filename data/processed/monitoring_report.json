@@ -1,0 +1,14 @@
+{
+    "monitoring_timestamp": "2025-12-28T17:14:50.097144+00:00",
+    "pipeline_health": "critical",
+    "checks": {},
+    "alerts": [
+        {
+            "severity": "critical",
+            "check": "system",
+            "message": "connection to server at \"localhost\" (::1), port 5432 failed: Connection refused (0x0000274D/10061)\n\tIs the server running on that host and accepting TCP/IP connections?\nconnection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)\n\tIs the server running on that host and accepting TCP/IP connections?\n",
+            "timestamp": "2025-12-28T17:14:50.097144+00:00"
+        }
+    ],
+    "overall_health_score": 0
+}
