@@ -42,7 +42,6 @@ BI Dashboard (Power BI / Tableau)
 | Testing | Pytest |
 | Version Control | Git & GitHub |
 
----
 
 ## Project Structure
 ---
