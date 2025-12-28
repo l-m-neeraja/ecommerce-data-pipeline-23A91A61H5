@@ -77,7 +77,7 @@ ecommerce-data-pipeline/
 ├── docs/
 │
 └── README.md
-
+```
 ---
 
 ## Database Schemas
