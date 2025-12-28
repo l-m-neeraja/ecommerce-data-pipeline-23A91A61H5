@@ -44,7 +44,7 @@ BI Dashboard (Power BI / Tableau)
 
 
 ## Project Structure
----
+```
 ecommerce-data-pipeline/
 │
 ├── config/
